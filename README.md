@@ -1,4 +1,4 @@
-﻿# ESPHome Two-Pin Garage Sensor
+# ESPHome Two-Pin Garage Sensor
 The Two-pin garage door sensor uses two GPIO pins to detect when the door is in the upper-most ("Open") position, and the bottom-most ("Closed") position. Using knowledge of the previous state, it's able to determine when the door is "Opening" or "Closing", which both occur when neither pin is high. A simple reed sensor is typically used for the top and bottom sensors.
 
 ![Two-pin garage sensor UI](images/two_pin_garage_sensor_ui.png)
